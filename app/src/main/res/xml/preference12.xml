@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <SwitchPreference
+        android:title="서치라이트"
+        android:key="search_light"
+        android:summary="연동된 드론의 앞을 비추는 서치라이트 사용"
+        android:defaultValue="false"
+        />
+    <SwitchPreference
+        android:title="점멸등"
+        android:key="flash_light"
+        android:summary="연동된 드론의 점멸등을 사용"
+        android:defaultValue="false"
+        />
+    <SwitchPreference
+        android:title="자동귀환"
+        android:key="home"
+        android:summary="드론의 배터리 15% 이하가 될시 사용자에게 자동귀환 "
+        android:defaultValue="false"
+        />
+
+    <SwitchPreference
+        android:title="사이렌"
+        android:key="sound"
+        android:summary="드론에서 사용자 보호를 위한 경고음 사용 "
+        android:defaultValue="false"
+        />
+
+
+</PreferenceScreen>

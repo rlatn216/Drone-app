@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.safemedrone_v1.SelectActivity">
+
+    <Button
+        android:id="@+id/help_btn"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/smd_v1_help"
+        android:layout_marginBottom="30dp"
+
+    />
+
+
+
+
+
+    <ImageView
+        android:layout_width="600dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="50dp"
+        android:background="@null"
+        android:src="@drawable/smd_f" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_marginRight="79.3dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@+id/mic_btn"
+
+
+            android:src="@drawable/smd_v1_sdw" />
+
+
+
+        <ImageButton
+            android:id="@+id/pad_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="140dp"
+            android:layout_toLeftOf="@+id/mic_btn"
+            android:background="@drawable/btn_smd_blue"
+            android:src="@drawable/smd_v1_pad"
+
+
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/pad_btn"
+
+
+            android:src="@drawable/smd_v1_sdw" />
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_marginLeft="247dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/pad_btn"
+
+
+            android:src="@drawable/smd_v1_sdw" />
+
+
+
+
+        <ImageButton
+            android:id="@+id/mic_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_smd_blue"
+            android:src="@drawable/smd_v1_mic"
+
+            />
+
+        <ImageButton
+            android:id="@+id/satting_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_toRightOf="@+id/mic_btn"
+            android:background="@drawable/btn_smd_blue"
+            android:src="@drawable/smd_v1_setting"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
