@@ -8,7 +8,7 @@
 
 ​	👇 시연영상 보기
 
-[![소개영상](C:\ks_work\assets\noname01.bmp)](https://youtu.be/mD22AIwZbEs)
+[![소개영상](./assets/noname01.png)](https://youtu.be/mD22AIwZbEs)
 
 <br/>
 
